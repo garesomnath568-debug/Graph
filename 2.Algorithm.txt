@@ -1,0 +1,13 @@
+2. Algorithm
+1. Start the program.
+2. Read the number of water tanks (vertices).
+3. Read the number of proposed pipelines (edges).
+4. Enter the source tank, destination tank and installation cost for each pipeline.
+5. Sort all edges in ascending order of their weights.
+6. Select the edge with the minimum weight.
+7. Check whether adding the edge forms a cycle using Disjoint Set (Union-Find).
+8. If no cycle is formed, add the edge to the Minimum Spanning Tree.
+9. Repeat until (V-1) edges are selected.
+10. Display the selected pipelines.
+11. Calculate and display the total installation cost.
+12. Stop.

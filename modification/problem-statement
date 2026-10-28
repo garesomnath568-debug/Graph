@@ -1,4 +1,0 @@
-problem-statement:
-
-Modify the original C++ program to update the weight of an existing edge and apply Kruskal’s Algorithm again.
-Display every selected edge with its weight and the running total cost. Detect a disconnected graph and report whether a spanning tree can be formed.

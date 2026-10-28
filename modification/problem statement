@@ -1,0 +1,5 @@
+Problem Statement:
+
+To modify the original C++ program implementing Kruskal’s Algorithm to update the weight of an existing edge and recompute the Minimum Spanning Tree (MST). 
+The program should display eachselected edge with its weight and the running total cost. 
+It should also detect whether the graph is disconnected and report whether a spanning tree can be formed.

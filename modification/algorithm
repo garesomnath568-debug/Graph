@@ -1,1 +1,19 @@
+Algorithm:
 
+1. Start.
+2. Read the number of vertices \\(V\\) and edges \\(E\\).
+3. Store each edge with its source, destination, and weight.
+4. Display all existing edges and read the edge whose weight needs to be updated.
+5. Search for the specified edge. If found, update its weight; otherwise, display an appropriate message.
+6. Sort all edges in ascending order of weight.
+7. Initialize the Disjoint Set Union (DSU) structure, total cost = 0, and selected edge count = 0.
+8. Traverse the sorted edges one by one.
+9. If the endpoints of an edge belong to different components:
+   - Select the edge and display its weight.
+   - Add the edge weight to the total cost.
+   - Display the running total cost.
+   - Merge the two components and increment the selected edge count.
+10. Repeat until \\(V-1\\) edges are selected or all edges are examined.
+11. If the selected edge count equals \\(V-1\\), display the Minimum Spanning Tree (MST) and its total cost.
+12. Otherwise, display that the graph is disconnected and a spanning tree cannot be formed.
+13. Stop.

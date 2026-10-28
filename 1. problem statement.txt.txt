@@ -1,1 +1,0 @@
-Develop a C++ program to represent water tanks as vertices and proposed pipelines as weighted edges. Apply Kruskal’s Algorithm to select the minimum-cost set of pipelines that connects all tanks without forming a cycle. Display the selected pipelines and total installation cost.
